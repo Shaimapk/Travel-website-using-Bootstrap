@@ -1,0 +1,42 @@
+.logo{
+    width:200px;
+}
+body{
+    padding-top: 90px;
+}
+.carousel-item img{
+ height: 80vh;
+  object-fit: cover;
+  filter:brightness(0.8)
+}
+
+#destinations .card {
+  height: 100%;
+}
+.destination-inner .card-img-top{
+    height: 250px;
+}
+
+.destination-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.row {
+  row-gap: 24px;
+}
+.package-includes ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.package-card:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+}
+.packages .row{
+     display: flex;
+    justify-content: space-around;
+}
+.package-includes i, footer i {
+    margin-right: 10px;}
